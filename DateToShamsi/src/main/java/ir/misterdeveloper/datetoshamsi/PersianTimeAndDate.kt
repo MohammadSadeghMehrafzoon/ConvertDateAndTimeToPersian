@@ -1,6 +1,6 @@
 package ir.misterdeveloper.datetoshamsi
 
-import com.google.gson.annotations.SerializedName
+
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
