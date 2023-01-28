@@ -36,17 +36,17 @@ dependencies {
 ```kotlin
 => kotlin
  
- val  persianTimeAndDate = PersianTimeAndDate(dateAndTime)
- val  date = PersianDate(date)
- val  time = PersianDate(time)
+ val  persianTimeAndDate = PersianTimeAndDate(dateAndTime) // for a time and date string
+ val  date = PersianDate(date) //Just for the date
+ val  time = PersianTime(time) //Just for the time
  
 ```
 ```java
 => java
 
-PersianDate date = new PersianDate(date);
-PersianDate time = new PersianTime(time);
-PersianDate persianTimeAndDate = new PersianTimeAndDate(dateAndTime);
+PersianDate date = new PersianDate(date); //Just for the date
+PersianTime time = new PersianTime(time); //Just for the time
+PersianTimeAndDate timeAndDate = new PersianTimeAndDate(dateAndTime); // for a time and date string
 
 ```
 #### Step 2. Get the time or date converted
@@ -64,15 +64,15 @@ persianTimeAndDate.getPersianTime()
 ```kotlin
 
  val  persianTimeAndDate = PersianTimeAndDate(2023-01-28T13:15:00)
- persianTimeAndDate.getPersianDate() // 1401/11/8 
- persianTimeAndDate.getPersianTime() // 18:45
+ timeAndDate.getPersianDate() // 1401/11/8 
+ timeAndDate.getPersianTime() // 18:45
  
  ```
  Or
  ```kotlin
  val  persianTimeAndDate = PersianTimeAndDate(2023/01/28T13:15:00)
- persianTimeAndDate.getPersianDate() // 1401/11/8 
- persianTimeAndDate.getPersianTime() // 18:45
+ timeAndDate.getPersianDate() // 1401/11/8 
+ timeAndDate.getPersianTime() // 18:45
  
 ```
 
