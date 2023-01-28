@@ -55,8 +55,8 @@ PersianTimeAndDate timeAndDate = new PersianTimeAndDate(dateAndTime); // for a t
 
 date.getPersianDate()
 time.getPersianTime()
-persianTimeAndDate.getPersianDate()
-persianTimeAndDate.getPersianTime()
+timeAndDate.getPersianDate()
+timeAndDate.getPersianTime()
 ```
 
 # Example 1
