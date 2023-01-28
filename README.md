@@ -63,14 +63,14 @@ timeAndDate.getPersianTime()
 
 ```kotlin
 
- val  timeAndDate = PersianTimeAndDate(2023-01-28T13:15:00)
+ val  timeAndDate = PersianTimeAndDate("2023-01-28T13:15:00")
  timeAndDate.getPersianDate() // 1401/11/8 
  timeAndDate.getPersianTime() // 18:45
  
  ```
  Or
  ```kotlin
- val  timeAndDate = PersianTimeAndDate(2023/01/28T13:15:00)
+ val  timeAndDate = PersianTimeAndDate("2023/01/28T13:15:00")
  timeAndDate.getPersianDate() // 1401/11/8 
  timeAndDate.getPersianTime() // 18:45
  
@@ -79,13 +79,13 @@ timeAndDate.getPersianTime()
 # Example 2
 
 ```kotlin
- val  date = PersianDate(2023-01-28)
+ val  date = PersianDate("2023-01-28")
  date.getPersianDate() // 1401/11/8 
 
 ```
  Or
 ``` kotlin
- val  date = PersianDate(2023/01/28)
+ val  date = PersianDate("2023/01/28")
  date.getPersianDate() // 1401/11/8 
  
 ```
