@@ -1,4 +1,4 @@
-# ConvertDateAndTimeToPersian
+# Convert date and time to persian
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
