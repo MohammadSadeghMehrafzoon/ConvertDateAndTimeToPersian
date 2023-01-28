@@ -36,7 +36,7 @@ dependencies {
 ```kotlin
 => kotlin
  
- val  persianTimeAndDate = PersianTimeAndDate(dateAndTime) // for a time and date string
+ val  timeAndDate = PersianTimeAndDate(dateAndTime) // for a time and date string
  val  date = PersianDate(date) //Just for the date
  val  time = PersianTime(time) //Just for the time
  
